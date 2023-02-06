@@ -1,0 +1,14 @@
+Public class fabanacciseries{
+Public static void main(String args[]){
+int i,n=10,first=0,second=1,next;
+System.out.println("fabanacci series are");
+for(i=0;i<=n;i++)
+{
+System.out.Println(first+",");
+next=first+second;
+first=second;
+second=next;
+}
+}
+
+}
